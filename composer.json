@@ -1,0 +1,20 @@
+{
+    "name": "hughwilly/banker",
+    "description": "Service to easily integrate with various banks",
+    "license": "MIT",
+    "type": "package",
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/support": "~5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "HughWilly\\Banker\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
